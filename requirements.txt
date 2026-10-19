@@ -1,0 +1,17 @@
+# Core runtime dependencies
+python-dotenv>=1.0.0
+
+# Notebook execution
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# Testing
+pytest>=8.2.0
+pytest-cov>=5.0.0
+
+# LLM provider SDK
+# Gemini is the only supported real provider. The mock provider needs no SDK.
+google-genai>=2.31.0,<3.0.0
+
+# Optional: enhanced date parsing (not required by the current implementation)
+# python-dateutil>=2.9.0
